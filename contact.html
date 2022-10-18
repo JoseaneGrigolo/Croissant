@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Croissant page with contact by Joseane Grigolo"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -11,14 +15,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/src/styles.css" />
-    <title>📧 Contact</title>
+    <title>📧 Contact - Croissant.com</title>
   </head>
   <body>
     <div class="container text-center border shadow rounded mt-5">
       <h1 class="mt-5 text-white fst-italic">🥐 Contact us</h1>
       <p class="mt-4 text-white lh-lg">
-        To contact croissant.com, please email us at hello@croissant.com for
-        more info.
+        To contact croissant.com, please email us at
+        <a
+          class="text-white"
+          href="mailto:hello@croissant.com"
+          title="Contact email"
+          >hello@croissant.com</a
+        >
+        for more info.
       </p>
 
       <a
@@ -26,6 +36,7 @@
         class="btn btn-primary shadow mt-5 mb-5"
         role="button"
         data-bs-toggle="button"
+        title="Homepage"
         >Homepage</a
       >
       <a
@@ -33,6 +44,7 @@
         class="btn btn-warning shadow mt-5 mb-5"
         role="button"
         data-bs-toggle="button"
+        title="Photo"
         >Photo</a
       >
       <a
@@ -40,6 +52,7 @@
         class="btn btn-danger shadow mt-5 mb-5"
         role="button"
         data-bs-toggle="button"
+        title="Contact"
         >Contact</a
       >
     </div>
